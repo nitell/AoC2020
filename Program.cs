@@ -6,7 +6,7 @@ namespace AoC
     {
         static void Main(string[] args)
         {
-            var o = new Day09.Solver();
+            var o = new Day10.Solver();
             Console.WriteLine(o.Solve1());
             Console.WriteLine(o.Solve2());
 
