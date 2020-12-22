@@ -24,9 +24,7 @@ namespace AoC.Day03
     class Solver
     {
         Int64 CountTreeHits(IEnumerable<TreeRow>rows, int moveRight)
-        {
-            var pos = 0;
-           
+        {            
             var treeHits = rows.Where((r, index) => r.IsTree(index * moveRight));
             return treeHits.Count();
         }
